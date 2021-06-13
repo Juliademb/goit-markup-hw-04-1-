@@ -261,9 +261,10 @@ ul {
 
 .footer-section {
   text-align: left;
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
+  align-items: baseline;
 }
 .first-column {
   padding-top: 60px;
@@ -288,7 +289,6 @@ ul {
   padding: 0;
   min-width: 206px;
   margin-left: 70px;
-  padding-top: 72px;
 }
 .welcome-title {
   font-style: normal;
@@ -560,4 +560,5 @@ ul {
 .company-icons:hover,
 .company-icons:focus {
   border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
