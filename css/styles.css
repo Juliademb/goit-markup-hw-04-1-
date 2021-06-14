@@ -266,10 +266,6 @@ ul {
   display: flex;
   align-items: baseline;
 }
-.first-column {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
 .footer-contacts a {
   margin-bottom: 0px;
